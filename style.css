@@ -1,0 +1,199 @@
+body{
+    padding: 0;
+    margin: 0;
+    width: 1440px;
+    height: 3872px;
+    background: var(--Black, #151515);
+}
+main{
+    position: relative;
+    background: var(--Black, #151515);
+    padding: 0;
+    margin: 0;
+    
+}
+.about{
+    /* display: flex; */
+    position: relative;
+    width: 706px;
+    height: 303px;
+    flex-shrink: 0;
+    top: 198px;
+    left: 165px;
+    color: white;
+
+}
+.about #txt {
+    display: block;
+    width: 709px;
+    height: 88px;    
+    color: var(--White, #FFF);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Space Grotesk;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 88px; /* 100% */
+    letter-spacing: -2.5px;
+    margin: 1px;
+}
+
+.about #iam {
+    width: 120px;
+    height: 88px;
+    color: var(--White, #FFF);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Space Grotesk;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 88px; /* 100% */
+    letter-spacing: -2.5px;
+}
+.about #name{
+    width: 518px;
+    height: 88px;
+    color: var(--White, #FFF);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Space Grotesk;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 88px; /* 100% */
+    letter-spacing: -2.5px;
+    margin-left: 20px;
+}
+.about #dis{
+    width: 445px;
+    height: 84px;
+    color: var(--Grey, #D9D9D9);
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* Body */
+    font-family: Space Grotesk;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; /* 155.556% */
+    display: block;
+    margin-top: 43px;
+    }
+.contectme{
+    position: absolute;
+    top: 567px;
+    left: 165px;
+    width: 117px;
+    height: 26px;
+    color: var(--Green, #4EE1A0);
+    font-family: Space Grotesk;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px; /* 162.5% */
+    letter-spacing: 2.286px;
+}
+.circle{
+    width: 129px;
+    height: 129px;
+    flex-shrink: 0;
+    stroke-width: 1px;
+    stroke: var(--White, #FFF);
+    position: absolute;
+    top: 521px;
+    left: 776px;
+}
+.line{
+    position: absolute;
+    width: 1110px;
+    height: 1px;
+    flex-shrink: 0;
+    background: var(--White, #FFF);
+    top: 824px;
+    left: 65px;
+}
+.offering{
+    position: absolute;
+    width: 1109.88px;
+    height: 270px;
+    /* background: var(--Black, #151515); */
+    top: 898px;
+    left: 65px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.sub1, .sub2, .sub3, .sub4, .sub5
+, .sub6  {
+    display: flex;
+    color: var(--White, #FFF);
+    font-feature-settings: 'clig' off, 'liga' off;
+    /* Heading (L) */
+    font-family: Space Grotesk;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px; /* 116.667% */
+    letter-spacing: -1.5px;
+    
+}
+.sub1{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    flex-wrap: wrap;
+       
+}
+.sub2{
+    position: absolute;
+    top: 0px;
+    left: 547px;    
+}
+.sub3{
+    position: absolute;
+    top: 0px;
+    left: 900px;    
+}
+.sub4{
+    position: absolute;
+    top: 174px;
+    left: 0px;    
+}
+.sub5{
+    position: absolute;
+    top: 174px;
+    left: 547px;     
+}
+.sub6{
+    position: absolute;
+    top: 174px;
+    left: 925px;   
+}
+.sub1 span,
+.sub2 span,
+.sub3 span,
+.sub4 span,
+.sub5 span,
+.sub6 span{
+    
+    color: var(--Grey, #D9D9D9);
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* Body */
+    font-family: Space Grotesk;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; /* 155.556% */
+
+    letter-spacing: normal;
+}
+
+
+.offering div {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; Center the content vertically */
+    /* margin: 10px; Add margin between the elements */
+}
