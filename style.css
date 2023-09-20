@@ -78,6 +78,21 @@ main{
     display: block;
     margin-top: 43px;
     }
+    .pic{
+        width: 444.876px;
+        height: 618px;
+        overflow: hidden;
+        position: absolute;
+        top: 141PX;
+        left: 830PX;
+        flex-shrink: 0;
+        background: url(<path-to-image>), lightgray 0px 0px / 100% 100% no-repeat;
+    }
+    .pic img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
 .contectme{
     position: absolute;
     top: 567px;
@@ -109,7 +124,7 @@ main{
     flex-shrink: 0;
     background: var(--White, #FFF);
     top: 824px;
-    left: 65px;
+    left: 165px;
 }
 .offering{
     position: absolute;
@@ -117,7 +132,7 @@ main{
     height: 270px;
     /* background: var(--Black, #151515); */
     top: 898px;
-    left: 65px;
+    left: 165px;
     display: flex;
     justify-content: space-between;
 
@@ -197,3 +212,43 @@ main{
     /* align-items: center; Center the content vertically */
     /* margin: 10px; Add margin between the elements */
 }
+.secondpart{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    top: 1000px;
+    left: 165px;
+}
+
+.secondpart .project{
+    color: var(--White, #FFF);
+    font-feature-settings: 'clig' off, 'liga' off;
+   
+    /* Heading (XL) */
+    font-family: Space Grotesk;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 88px; /* 100% */
+    letter-spacing: -2.5px;
+}
+.diffproject{
+    position: absolute;
+    width: 1090px;
+    height: 1767px;
+    flex-shrink: 0;
+    border: 1px solid white;
+    display: grid;
+    grid-template-rows: repeat(3, 400px); 
+    grid-template-columns: repeat(2, 540px); 
+    gap: 10px;
+    margin-top: 20px; 
+    /* border: 2px solid white; */
+}
+.grid-item {
+    /* Add styling for your grid items */
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid white; /* Set the border to white */
+  }
